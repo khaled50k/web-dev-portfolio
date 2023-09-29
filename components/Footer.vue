@@ -5,10 +5,10 @@
           Proudly developed by
           <span class="font-bold text-accent-1">Khaled Abu Eriban</span>
         </p>
-        <!-- <p class="text-center text-sm text-shade-2">
+        <p class="text-center text-sm text-shade-2">
           Powered by
-          <span class="font-bold text-accent-1">Vue.js</span>
-        </p> -->
+          <span class="font-bold text-accent-1">Nuxt</span>
+        </p>
       </div>
     </footer>
   </template>
