@@ -12,7 +12,7 @@
             Hi, I'm Khaled Abu Eriban
           </h1>
           <!-- <h1 class="text-71xl font-bold">Your Hero Title</h1> -->
-          <p class="mt-4 text-lg md:text-13xl text-shade-2 mx-2 md:mx-20">I'm a full-stack developer specializing in Vue.js, Node.js, React.js, and Tailwind CSS. My goal is to create exceptional digital experiences by blending functionality and aesthetics.</p>
+          <p class="mt-4 text-lg md:text-13xl text-shade-2 mx-2 md:mx-20">I'm a full-stack developer specializing in Nuxt.js, Vue.js, Node.js, React.js, and Tailwind CSS. My goal is to create exceptional digital experiences by blending functionality and aesthetics.</p>
         </div>
       </div>
   

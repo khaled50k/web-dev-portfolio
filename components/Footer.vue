@@ -7,7 +7,7 @@
         </p>
         <p class="text-center text-sm text-shade-2">
           Powered by
-          <span class="font-bold text-accent-1">Nuxt</span>
+          <span class="font-bold text-accent-1">Nuxt.js</span>
         </p>
       </div>
     </footer>
