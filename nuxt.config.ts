@@ -10,7 +10,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Experienced Full Stack Developer passionate about crafting user-centered web applications. Skilled in Vue.js, Node.js, React.js, and Tailwind CSS.",
+            "Experienced Full Stack Developer passionate about crafting user-centered web applications. Skilled in Vue.js, Node.js, React.js, Tailwind CSS, and Next.js.",
         },
         // Open Graph / Facebook
         {
@@ -22,15 +22,14 @@ export default defineNuxtConfig({
           hid: "og:description",
           property: "og:description",
           content:
-            "Experienced Full Stack Developer passionate about crafting user-centered web applications. Skilled in Vue.js, Node.js, React.js, and Tailwind CSS.",
+            "Experienced Full Stack Developer passionate about crafting user-centered web applications. Skilled in Vue.js, Node.js, React.js, Tailwind CSS, and Next.js.",
         },
         {
           hid: "og:image",
           property: "og:image",
-          content:
-            "URL to an image representing your website (1200x630px recommended)",
+          content: "https://media.graphassets.com/fq6etNuQR2K86WAaBsbx", // Replace with your image URL
         },
-        { hid: "og:url", property: "og:url", content: "URL of your website" },
+        { hid: "og:url", property: "og:url", content: "https://author.ibdaatec.com" },
         {
           hid: "og:site_name",
           property: "og:site_name",
@@ -52,25 +51,22 @@ export default defineNuxtConfig({
           hid: "twitter:description",
           name: "twitter:description",
           content:
-            "Experienced Full Stack Developer passionate about crafting user-centered web applications. Skilled in Vue.js, Node.js, React.js, and Tailwind CSS.",
+            "Experienced Full Stack Developer passionate about crafting user-centered web applications. Skilled in Vue.js, Node.js, React.js, Tailwind CSS, and Next.js.",
         },
         {
           hid: "twitter:image",
           name: "twitter:image",
-          content:
-            "URL to an image representing your website (1200x630px recommended)",
+          content: "https://media.graphassets.com/fq6etNuQR2K86WAaBsbx", // Replace with your image URL
         },
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-        // Add any other specific meta tags or links your website requires
+        { rel: "stylesheet", href: "/styles/global.css" }, // Example of a global stylesheet
       ],
     },
   },
-  // devtools: { enabled: true },
   modules: ["@vite-pwa/nuxt", "@nuxtjs/tailwindcss"],
   pwa: {
-    // disables the icon module
     workbox: {
       navigateFallback: "/",
     },
@@ -101,12 +97,14 @@ export default defineNuxtConfig({
           type: "image/png",
         },
       ],
-      name: "Khaled Walead Abu Eriban - Full Stack Developer", // Your app's name
-      short_name: "Portfolio", // Short name for the app (used on the home screen)
-      start_url: "/", // Starting URL when the app is launched
+      name: "Khaled Walead Abu Eriban - Full Stack Developer",
+      short_name: "Portfolio",
+      start_url: "/",
       display: "standalone",
       background_color: "#0a0a0a",
-      theme_color: "##9b5cff", // Your preferred theme color
+      theme_color: "#9b5cff",
+      description:
+        "An engaging portfolio showcasing the work and expertise of Khaled Walead Abu Eriban, a Full Stack Developer with a passion for modern web technologies.",
     },
   },
 });
