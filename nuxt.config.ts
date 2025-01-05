@@ -1,10 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  runtimeConfig: {
-    app: {
-      port: 3200
-    }
-  },
+
   app: {
     head: {
       title: "Khaled Walead Abu Eriban - Full Stack Developer",
