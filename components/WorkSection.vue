@@ -35,7 +35,20 @@
     initializeAOS(); // Initialize AOS when the component is mounted
   });
   // const githubRepos = ref([]);
-  const githubRepos = ref([{
+  const githubRepos = ref([
+    
+  {
+  "id": 889256192,
+  "name": "Ibdaatec",
+  "description": "Ibdaatec is an innovative digital solutions company I founded, dedicated to creating modern websites, online stores, and custom web applications. The company focuses on delivering seamless user experiences and reliable functionality tailored to client needs.",
+  "imageSrc": "https://media.graphassets.com/osoE3JHuRUez1yu65NBC",
+  "url": "https://ibdaatec.com",
+  "created_at": "2024-12-19T00:00:00Z",
+  "language": "Full-Stack Development",
+  
+}
+  
+  ,{
     "id": 689256191,
     "name": " Anon Chat Hub API",
     "description": "AnonChatHub is a secure and anonymous chat application that allows users to communicate privately. It employs encryption to ensure message privacy and offers real-time notifications when new messages arrive.",

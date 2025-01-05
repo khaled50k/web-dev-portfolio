@@ -10,10 +10,20 @@
                 class="flex  flex-col group lg:flex-row py-3 md:py-10   rounded-lg  transition-all duration-300 ease-in-out">
                 <div class=" flex flex-col justify-between lg:pr-28 mb-12 lg:mb-0 ">
                     <div class="flex flex-col  justify-between">
-                        <p class="text-shade1 text-lg lg:text-13xl leading-snug">I'm a full-stack developer passionate about
-                            creating user-friendly web applications. With expertise in Nuxt.js, Vue.js, Node.js, React.js,
-                            Tailwind CSS, and Vite, I have over 2 years of experience crafting efficient and reliable
-                            solutions for exceptional user experiences.</p>
+                        <p class="text-shade1 text-lg lg:text-13xl leading-snug">
+                            I'm a full-stack developer passionate about creating user-friendly and high-performance web
+                            applications.
+                            With over 4 years of experience, I specialize in modern technologies such as Vue.js,
+                            Node.js, React.js,
+                            Next.js, Laravel, Tailwind CSS, and Vite. I also excel in backend development, database
+                            management, and
+                            hosting solutions, including deploying scalable applications using MySQL, MongoDB, and cloud
+                            services.
+                            My dedication to crafting efficient and reliable solutions ensures exceptional user
+                            experiences and seamless
+                            functionality for every project I undertake.
+                        </p>
+
 
                     </div>
                 </div>
