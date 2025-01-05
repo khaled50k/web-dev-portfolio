@@ -11,11 +11,13 @@
                 <skill-icon image-name="js"></skill-icon>
                 <skill-icon image-name="jquery"></skill-icon>
                 <skill-icon image-name="nuxt"></skill-icon>
+                <skill-icon image-name="nextjs"></skill-icon>
                 <skill-icon image-name="vue"></skill-icon>
                 <skill-icon image-name="react"></skill-icon>
                 <skill-icon image-name="html"></skill-icon>
                 <skill-icon image-name="css"></skill-icon>
                 <skill-icon image-name="nodejs"></skill-icon>
+                <skill-icon image-name="laravel"></skill-icon>
                 <skill-icon image-name="express"></skill-icon>
                 <skill-icon image-name="java"></skill-icon>
                 <skill-icon image-name="python"></skill-icon>
