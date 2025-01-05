@@ -9,7 +9,8 @@
       </div>
       <div class="projects flex flex-col gap-7 md:gap-10 w-full my-11 lg:my-14">
         <project v-for="repo in githubRepos" :key="repo.id" :title="repo.name" :date="repo.created_at"
-          :language="repo.language" :href="repo.url" :description="repo.description" buttonText="Explore on GitHub"
+          :language="repo.language" :href="repo.url" :description="repo.description" :buttonText="repo.name === 'Ibdaatec' ? 'Visit Website' : 'Explore on GitHub'">
+          {{ repo.name === 'Ibdaatec' ? 'Visit Website' : 'Explore on GitHub' }}
           :imageSrc="repo.imageSrc">
         </project>
   
