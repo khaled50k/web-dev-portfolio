@@ -8,12 +8,12 @@
   
       </div>
       <div class="projects flex flex-col gap-7 md:gap-10 w-full my-11 lg:my-14">
-        <project v-for="repo in githubRepos" :key="repo.id" :title="repo.name" :date="repo.created_at"
+        <project v-for="repo in githubRepos" :key="repo.id" :title="repo.name" :date="repo.created_at"  :src="repo.imageSrc"
           :language="repo.language" :href="repo.url" :description="repo.description" :buttonText="repo.name === 'Ibdaatec' ? 'Visit Website' : 'Explore on GitHub'">
           {{ repo.name === 'Ibdaatec' ? 'Visit Website' : 'Explore on GitHub' }}
-          :imageSrc="repo.imageSrc">
+         >
         </project>
-  
+ 
   
   
       </div>
@@ -42,7 +42,7 @@
   "id": 889256192,
   "name": "Ibdaatec",
   "description": "Ibdaatec is an innovative digital solutions company I founded, dedicated to creating modern websites, online stores, and custom web applications. The company focuses on delivering seamless user experiences and reliable functionality tailored to client needs.",
-  "imageSrc": "https://media.graphassets.com/osoE3JHuRUez1yu65NBC",
+  "imageSrc": "https://media.graphassets.com/aYT9j70WT0iCWHo0lbEc",
   "url": "https://ibdaatec.com",
   "created_at": "2024-12-19T00:00:00Z",
   "language": "Full-Stack Development",

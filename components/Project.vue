@@ -17,7 +17,9 @@
           <div class="relative overflow-hidden rounded-2xl lg:max-w-[300px]  justify-end items-end">
             <img loading="lazy"
               class="rounded-2xl w-full h-full transform transition-transform group-hover:scale-105 duration-300 ease-in-out"
-              :src="imageSrc" :alt="title">
+              :src="src" :alt="title">
+              <h1>{{imageSrc}}</h1>
+         
           </div>
         </div>
       </div>
@@ -46,7 +48,7 @@
     date: String,
     description: String,
     buttonText: String,
-    imageSrc: String,
+    src: String,
     language: String,
     href: String
   });
